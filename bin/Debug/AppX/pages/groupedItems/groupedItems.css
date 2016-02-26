@@ -1,0 +1,394 @@
+﻿.groupeditemspage section[role=main] {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+}
+
+.groupeditemspage .groupeditemslist {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+
+#divPropose{
+	        background-color: #fff;
+            border: 3px Solid Black;
+            display: block;
+            border-radius:8px;
+			color:black;
+            width:800px;
+            height:600px;
+            overflow:auto;
+            left: 50%;
+            padding: 25px;
+            position: fixed;
+            text-align: justify;
+            top: 50%;
+            z-index: 20;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+            -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+            -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+            -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+            -webkit-transition: opacity .5s, top .5s;
+            -moz-transition: opacity .5s, top .5s;
+            -ms-transition: opacity .5s, top .5s;
+            -o-transition: opacity .5s, top .5s;	
+}
+#divPropose .divPopupDetails{
+	width:800px;
+	height:500px;
+	margin: 0px 1px;
+    clear:both;
+	}
+
+	
+.inlinePanels label{
+    display:inline;
+    clear:both;
+    text-align:left;
+	}
+
+#movieName, #releaseDate, #movieRating, #movieBudget, #movieGernes, #imdbID, #productionCompanies, #movieRuntime, #movieOverview, #movieRoles, #movieDirector, #movieProducer{
+    clear:right;
+}
+
+#picturePanel, #rdPanel, #mrPanel, #mbPanel, #mgPanel, #imdbIDPanel {
+    float:left;
+    clear:left;
+    width:400px;
+    margin-bottom:-5px;
+}
+
+#mdPanel, #mpPanel, #mrunPanel, #moPanel, #mrolPanel {
+    width:350px;
+    margin-left:25px;
+}
+
+#rightPanel {
+    margin-top:-520px;
+    width:400px;
+    float:right;
+    
+}
+
+
+#buttonDiv{
+	width:400px;
+    height:50px;
+	color:black;
+	float:left;
+    clear:left;
+    margin-top:10px;   
+	}
+#buttonDiv button{
+	float:left;
+	padding: 0px 10px;
+	margin:10px 5px;
+	height:10px;
+	vertical-align:bottom;
+    color:black;
+    border:1px solid black;
+    border-radius:3px;
+	}
+#buttonDiv button:hover {
+    background-color:black;
+    color:white;
+    }        
+
+    /* This selector is used to prevent ui-dark/light.css from overwriting changes
+       to .win-surface. */
+    .groupeditemspage .groupeditemslist .win-horizontal.win-viewport .win-surface {
+        margin-bottom: 60px;
+        margin-left: 45px;
+        margin-right: 115px;
+        margin-top: 128px;
+    }
+
+    .groupeditemspage .groupeditemslist.win-rtl .win-horizontal.win-viewport .win-surface {
+        margin-left: 115px;
+        margin-right: 45px;
+    }
+
+    .groupeditemspage .groupeditemslist .win-groupheader {
+        padding: 0;
+    }
+
+    /* Use grid and top level layout for truncation */
+    .groupeditemspage .groupeditemslist .group-header {
+        -ms-grid-columns: minmax(0, max-content) 7px max-content;
+        -ms-grid-rows: max-content;
+        display: -ms-inline-grid;
+        line-height: 1.5;
+    }
+
+    /* Override default button styles */
+    .groupeditemspage .groupeditemslist .group-header, .group-header:hover, .group-header:hover:active {
+        background: transparent;
+        border: 0;
+        margin-bottom: 1px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 1px;
+        min-height: 0;
+        padding: 0;
+    }
+
+        .groupeditemspage .groupeditemslist .group-header .group-title {
+            display: inline-block;
+        }
+
+        .groupeditemspage .groupeditemslist .group-header .group-chevron {
+            -ms-grid-column: 3;
+            display: inline-block;
+        }
+
+            .groupeditemspage .groupeditemslist .group-header .group-chevron::before {
+                content: "\E26B";
+                font-family: 'Segoe UI Symbol';
+            }
+
+            .groupeditemspage .groupeditemslist.win-rtl .group-header .group-chevron:before {
+                content: "\E26C";
+            }
+			
+			.button {
+		margin-left: 60px;
+		font-size: 30px;
+		border: hidden;
+		visibility: visible;
+	}
+
+    .groupeditemspage .groupeditemslist .item {
+        -ms-grid-columns: 1fr;
+        -ms-grid-rows: 1fr 50px;
+        display: -ms-grid;
+        height: 250px;
+        width: 180px;
+    }
+
+        .groupeditemspage .groupeditemslist .item .item-image {
+            -ms-grid-row-span: 2;
+        }
+
+        .groupeditemspage .groupeditemslist .item .item-overlay {
+            -ms-grid-row: 2;
+            -ms-grid-rows: 1fr;
+            display: -ms-grid;
+            padding: 6px 15px 2px 15px;
+        }
+
+            .groupeditemspage .groupeditemslist .item .item-overlay .item-title {
+                -ms-grid-row: 1;
+                overflow: hidden;
+                width: 150px;
+            }
+
+            .groupeditemspage .groupeditemslist .item .item-overlay .item-subtitle {
+                -ms-grid-row: 2;
+                width: 149px;
+            }
+
+@media screen and (-ms-view-state: fullscreen-landscape), screen and (-ms-view-state: fullscreen-portrait), screen and (-ms-view-state: filled) {
+    .groupeditemspage .groupeditemslist .item .item-overlay {
+        background: rgba(0,0,0,0.65);
+    }
+
+        .groupeditemspage .groupeditemslist .item .item-overlay .item-title {
+            color: rgba(255,255,255,0.87);
+        }
+
+        .groupeditemspage .groupeditemslist .item .item-overlay .item-subtitle {
+            color: rgba(255,255,255,0.6);
+        }
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) and (-ms-high-contrast), screen and (-ms-view-state: fullscreen-portrait) and (-ms-high-contrast), screen and (-ms-view-state: filled) and (-ms-high-contrast) {
+    .groupeditemspage .groupeditemslist .item .item-overlay {
+        color: WindowText;
+    }
+}
+
+@media screen and (-ms-view-state: snapped) {
+
+    #divPropose{
+	        background-color: #fff;
+            border: 3px Solid Black;
+            display: block;
+            border-radius:8px;
+			color:black;
+            width:250px;
+            height:650px;
+            overflow:auto;
+            left: 50%;
+            padding: 25px;
+            position: fixed;
+            text-align: justify;
+            top: 50%;
+            z-index: 20;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+            -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+            -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+            -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+            -webkit-transition: opacity .5s, top .5s;
+            -moz-transition: opacity .5s, top .5s;
+            -ms-transition: opacity .5s, top .5s;
+            -o-transition: opacity .5s, top .5s;	
+    }
+    #divPropose .divPopupDetails{
+	    width:250px;
+	    height:650px;
+        clear:both;
+        float:left;
+	    }
+	
+    .inlinePanels label{
+        display:inline;
+        clear:left;
+        text-align:left;
+	    padding-bottom:1px;
+	    }
+
+    #movieName, #releaseDate, #movieRating, #movieBudget, #movieGernes, #imdbID, #productionCompanies, #movieRuntime, #movieOverview, #movieRoles, #movieDirector, #movieProducer{
+        clear:right;
+    }
+    
+    #picturePanel, #rdPanel, #mrPanel, #mbPanel, #mgPanel, #imdbIDPanel {
+        float:left;
+        clear:left;
+        width:225px;
+        
+    }
+
+    #mdPanel, #mpPanel, #mrunPanel, #moPanel, #mrolPanel {
+        width:225px;
+        
+    }
+
+    #rightPanel {
+        margin-top:5px;
+        width:225px;
+        float:left;
+        margin-left:-25px;
+    }
+
+    #buttonDiv{
+	    width:250px;
+	    color:black;
+        clear:both;
+	    }
+    #buttonDiv button{
+	    float:left;
+	    padding: 0px 10px;
+	    margin-bottom:10px;
+        margin-right:-10px;
+        width:95%;
+	    height:10px;
+	    vertical-align:middle;
+        color:black;
+        border:1px solid black;
+        border-radius:3px;
+	    }
+    #buttonDiv button:hover {
+        background-color:black;
+        color:white;
+    }
+    #picture {
+        width:240px;
+    }
+    #divSnappedOption {
+        padding-top:270px;
+    }
+
+    .groupeditemspage section[role=main] {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+    }
+
+    .groupeditemspage .groupeditemslist .win-vertical.win-viewport .win-surface {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .groupeditemspage .groupeditemslist .win-container {
+        margin-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 60px;
+        padding: 7px;
+		background-color: transparent;
+    }
+
+    .groupeditemspage .groupeditemslist.win-rtl .win-container {
+        margin-left: 21px;
+        margin-right: 26px;
+    }
+
+    .groupeditemspage .groupeditemslist .item {
+        -ms-grid-columns: 1fr;
+        -ms-grid-rows: 1fr 5px 30px;
+        display: -ms-grid;
+        height: 200px;
+        width: 215px;
+    }
+
+        .groupeditemspage .groupeditemslist .item .item-image {
+            -ms-grid-column: 1;
+            -ms-grid-row-span: 1;
+            height: 165px;
+            width: 140px;
+			margin-left: 43px;
+        }
+
+        .groupeditemspage .groupeditemslist .item .item-overlay {
+            -ms-grid-column: 1;
+            -ms-grid-row: 3;
+            -ms-grid-row-align: stretch;
+            background: transparent;
+            display: inline-block;
+            padding: 0;
+        }
+
+            .groupeditemspage .groupeditemslist .item .item-overlay .item-title {
+                margin-top: 4px;
+                max-height: 40px;
+                width: 215px;
+				text-align: center;
+            }
+
+            .groupeditemspage .groupeditemslist .item .item-overlay .item-subtitle {
+                opacity: 0.6;
+                width: 202px;
+            }
+			
+			.button {
+				visibility: collapse;
+			}
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .groupeditemspage .groupeditemslist .win-horizontal.win-viewport .win-surface {
+        margin-left: 25px;
+        margin-right: 95px;
+    }
+
+    .groupeditemspage .groupeditemslist.win-rtl .win-horizontal.win-viewport .win-surface {
+        margin-left: 95px;
+        margin-right: 25px;
+    }
+}

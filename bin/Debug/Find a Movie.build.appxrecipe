@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DARKO</Machine>
+    <WindowsUser>Darko</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\controls\settingsFlyout.css">
+      <PackagePath>controls\settingsFlyout.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\pages\itemDetail\itemDetail.css">
+      <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\pages\groupDetail\groupDetail.css">
+      <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\pages\groupedItems\groupedItems.css">
+      <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\controls\settingsFlyout.html">
+      <PackagePath>controls\settingsFlyout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\pages\itemDetail\itemDetail.html">
+      <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\pages\groupDetail\groupDetail.html">
+      <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\pages\groupedItems\groupedItems.html">
+      <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\controls\settingsFlyout.js">
+      <PackagePath>controls\settingsFlyout.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\pages\itemDetail\itemDetail.js">
+      <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\pages\groupDetail\groupDetail.js">
+      <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\pages\groupedItems\groupedItems.js">
+      <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\badgeLogo.jpg">
+      <PackagePath>images\badgeLogo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\logo.jpg">
+      <PackagePath>images\logo.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\NoPhotoAvailable.jpg">
+      <PackagePath>images\NoPhotoAvailable.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\now_ playing.jpg">
+      <PackagePath>images\now_ playing.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\smallLogo.jpg">
+      <PackagePath>images\smallLogo.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\splashscreen.jpg">
+      <PackagePath>images\splashscreen.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\top_rated.jpg">
+      <PackagePath>images\top_rated.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\wideLogo.jpg">
+      <PackagePath>images\wideLogo.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\theatre-scenario.jpg">
+      <PackagePath>theatre-scenario.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\search.png">
+      <PackagePath>images\search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darko\Desktop\Seminarska WBS - Full version 1.0\Find a Movie\Find a Movie\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

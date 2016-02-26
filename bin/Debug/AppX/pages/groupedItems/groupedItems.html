@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>groupedItemsPage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/groupedItems/groupedItems.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <script src="/pages/groupedItems/groupedItems.js"></script>
+</head>
+<body>
+    <!-- These templates are used to display each item in the ListView declared below. -->
+    <div class="headertemplate" data-win-control="WinJS.Binding.Template">
+        <button class="group-header win-type-x-large win-type-interactive" data-win-bind="groupKey: key"
+            onclick="Application.navigator.pageControl.navigateToGroup(event.srcElement.groupKey)" role="link" tabindex="-1" type="button">
+            <span class="group-title win-type-ellipsis" data-win-bind="textContent: title"></span>
+            <span class="group-chevron"></span>
+        </button>
+    </div>
+    <div class="itemtemplate" data-win-control="WinJS.Binding.Template">
+        <div class="item">
+            <img class="item-image" src="#" data-win-bind="src: backgroundImage; alt: title" />
+            <div class="item-overlay">
+                <h4 class="item-title" data-win-bind="textContent: title" style="margin-left: 0px; margin-right: 0px;"></h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="custompopup" id="divPropose" style="visibility:hidden;">
+		<div class="divPopupDetails" style="float:left; height:500px;">
+			<img id="picture" src="#" alt="Picture" width="350" height="350" style="float:left;" />
+			<p class="inlinePanels" id="picturePanel">
+                <label style="font-weight: bold">Name:</label>
+                <label id="movieName"></label>
+            </p>
+            <p class="inlinePanels" id="rdPanel">
+                <label style="font-weight: bold">Release Date:</label>
+                <label id="releaseDate"></label>
+            </p>
+            <p class="inlinePanels" id="mrPanel">
+                <label style="font-weight: bold">Rating:</label>
+                <label id="movieRating"></label>
+            </p>
+            <p class="inlinePanels" id="mbPanel">
+                <label style="font-weight: bold">Budget:</label>
+                <label id="movieBudget">/</label>
+            </p>
+            <p class="inlinePanels" id="mgPanel">
+                <label style="font-weight: bold">Genres:</label>
+                <label id="movieGernes"></label>
+            </p>
+            <p class="inlinePanels" id="imdbIDPanel">
+                <label style="font-weight: bold">IMDB ID:</label>
+                <label id="imdbID" ></label>
+            </p>
+            <div id="rightPanel">
+                <p class="inlinePanels" id="mdPanel">
+                    <label style="font-weight: bold">Director:</label>
+                    <label id="movieDirector"></label>
+                </p>
+                <p class="inlinePanels" id="mpPanel">
+                    <label style="font-weight: bold">Producer:</label>
+                    <label id="movieProducer"></label>
+                </p>
+                <p class="inlinePanels" id="mrunPanel">
+                    <label style="font-weight: bold">Runtime:</label>
+                    <label id="movieRuntime"></label>
+                </p>
+                <p class="inlinePanels" id="moPanel">
+                    <label style="font-weight: bold">Overview:</label>
+                    <label id="movieOverview"></label>
+                </p>
+                <p class="inlinePanels" id="mrolPanel">
+                    <label style="font-weight: bold">Roles:</label>
+                    <label id="movieRoles"></label>
+                </p>
+            </div>
+            <div id="buttonDiv">
+                <button id="btnAddWathedPopup">Add Watched</button>
+                <button id="btnNext">Next</button>
+			    <button id="btnClosePopup">Close</button>
+		    </div>
+		</div>
+	</div>
+
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment groupeditemspage">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Find a Movie</span>
+				<button id="button" class="button" style="font-family: buxton sketch">I'm Feeling Lucky</button>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div class="groupeditemslist win-selectionstylefilled" aria-label="List of groups" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'none' }"></div>
+        </section>
+    </div>
+    <span id="resultDiv" />
+</body>
+</html>

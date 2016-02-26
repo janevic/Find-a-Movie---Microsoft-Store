@@ -1,0 +1,19 @@
+﻿.flyout {
+    width: 250px;
+    height: 700px;
+    max-width: 500px;
+}
+
+.btnSave {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 240px;
+}
+
+@media screen and (-ms-view-state: snapped) {
+
+    .flyout {
+    width: 250px;
+    height: 700px;
+    }
+}
